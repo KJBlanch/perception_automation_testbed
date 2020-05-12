@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node name="plane_seg" pkg="plane_seg" type="plane_seg" output="screen">
+		<param name="input" value="/royale_camera_driver/depth_image" />
+		<param name="camera_frame" value="camera_link" />
+		<param name="robot_frame" value="base_link" />
+		<param name="world_frame" value="map" />
+		<param name="frame_id" value="test_obstacles" />
+	</node>
+
+</launch>

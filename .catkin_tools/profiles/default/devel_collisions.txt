@@ -1,0 +1,1 @@
+/home/kris/magProj/Management/devel/./cmake.lock 2

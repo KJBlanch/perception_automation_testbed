@@ -1,0 +1,6 @@
+- diagnose: 1
+  target: {10,0,0}
+  leg: "AL" #Options - AR/AL/BR/BL. 
+  range: {1,1,1,0,0,-1} #relative to the fixed point of the body. 
+  
+  
